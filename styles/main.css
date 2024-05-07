@@ -1,0 +1,134 @@
+.hidden {
+    display: none;
+}
+
+html {
+    width:100%;
+}
+
+body {
+    margin: 0px;
+}
+header {
+    background-color: #154734;
+    padding: 2rem;
+    margin: 0px;
+    
+}
+
+
+
+header span {
+    display:flex;
+    justify-content: flex-end;
+}
+
+header span a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+header span a:hover {
+    background-color: #b65735;
+    
+}
+
+header img {
+    height: 3rem;
+    float: left;
+}
+
+main {
+    margin: 3rem 5rem;
+}
+
+button {
+    color: white;
+    background-color:#b65735;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+form div {
+    margin: 1rem 0rem;
+}
+
+main img {
+    border: #154734 1px solid;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+}
+
+section {
+    border: #000 1px solid;
+    border-radius: 1rem;
+    margin: 1rem;
+    background: #f5f5f5;
+    padding: 2rem;
+}
+
+#bathroom>div{
+    border: #000 1px solid;
+    border-radius: 1rem;
+    padding: 0rem;
+    margin-top: 2rem 
+}
+
+#bathroom>div>div {
+
+    width: fit-content;
+    background-color: #c2c2c2;
+    margin: 0rem 1rem 1rem 0rem; 
+    padding: 1rem;
+    border-radius: 1rem 0rem 1rem 0rem;
+}
+
+#bathroom img {
+    max-width: 90%;
+    max-height: 500px;
+}
+
+
+#bathroom>div>img {
+    padding: 0px;
+    margin: 0rem 0rem 1rem 1rem;
+}
+
+.prof_search:nth-of-type(odd) {
+    background-color: #c2c2c2;
+    
+}
+.prof_search:nth-of-type(even) {
+    background-color: #f4f4f4;
+
+}
+
+.prof_search {
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    border: #303030 solid 1px;
+}
+
+main#sc_prof div {
+    border: #303030 solid 1px;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 1rem;
+    margin: 1rem
+}
+main#sc_prof div:nth-of-type(odd) {
+    background-color: #c2c2c2;
+}
+
+.prof_search:nth-of-type(even) {
+    background-color: #f4f4f4;
+}
+
+main#sc_prof div h3 {
+    margin-top: 0.5rem;
+}
